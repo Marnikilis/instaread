@@ -1,0 +1,46 @@
+@import "./utils/variables";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  outline: none !important;
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: $main-font;
+  background-color: #ffffff;
+}
+
+.App {
+  //min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContainer {
+  max-width: 1920px;
+  padding: 0 70px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
+a{
+  font-size: 19px;
+  text-decoration: none;
+  margin-left: 30px;
+  transition-duration: 0.4s;
+}
+
+a.active{
+  color: #009aeb;
+}
+
+

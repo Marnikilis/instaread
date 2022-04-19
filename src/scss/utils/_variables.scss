@@ -1,0 +1,9 @@
+//
+// Variables // --------------------------------------------------
+
+@font-face {
+  font-family: 'SFProDisplay';
+  src: local('SFProDisplay'), url(../../fonts/SFPRODISPLAYREGULAR.OTF) format('truetype');
+}
+
+$main-font: SFProDisplay, sans-serif;
