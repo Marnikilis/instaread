@@ -13,3 +13,18 @@
 .logo{
   width: 110px;
 }
+.nav{
+  display: flex;
+}
+.login{
+  display: flex;
+  align-items: center;
+}
+.select{
+  margin-left: 10px;
+  width: 7px;
+  height: 4px;
+  background-color: #8f95a3;
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+  border: none;
+}
