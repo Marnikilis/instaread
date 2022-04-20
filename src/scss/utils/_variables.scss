@@ -5,5 +5,15 @@
   font-family: 'SFProDisplay';
   src: local('SFProDisplay'), url(../../fonts/SFPRODISPLAYREGULAR.OTF) format('truetype');
 }
+@font-face {
+  font-family: 'SFProDisplay-Bold';
+  src: local('SFProDisplay'), url(../../fonts/SFPRODISPLAYBOLD.OTF) format('truetype');
+}
+@font-face {
+  font-family: 'SFProDisplay-Medium';
+  src: local('SFProDisplay'), url(../../fonts/SFPRODISPLAYMEDIUM.OTF) format('truetype');
+}
 
 $main-font: SFProDisplay, sans-serif;
+$main-title: SFProDisplay-Bold, sans-serif;
+$font-medium: SFProDisplay-Medium, sans-serif;
