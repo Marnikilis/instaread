@@ -1,0 +1,68 @@
+@import "../../scss/utils/variables";
+
+.container{
+  background-color: #f7f7f7;
+  padding: 50px 0 260px 0;
+}
+
+.info{
+  display: flex;
+  align-items: center;
+}
+.description{
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  font-family: $main-title;
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.about{
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+.author{
+  font-family:$font-medium;
+  font-size: 18px;
+  color: #8f95a3;
+}
+
+
+.action{
+  margin: 40px 0;
+  border-top: solid 1px #5c626e;
+  border-bottom: solid 1px #5c626e;
+  width: 85%;
+}
+
+.btnAction{
+  border: none;
+  padding: 14px 0;
+  margin-right: 40px;
+  background-color: transparent;
+}
+
+.btnContent{
+  display: flex;
+  align-items: center;
+}
+.text{
+  margin-left: 10px;
+  font-family:$font-medium;
+  font-size: 16px;
+}
+
+.btnTag{
+  border: none;
+  margin-right: 8px;
+  background-color: #8f95a3 ;
+  padding: 7px 16px;
+  border-radius: 6px;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 15px;
+}
