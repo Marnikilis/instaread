@@ -1,4 +1,6 @@
 @import "../../scss/utils/variables";
+@import "../../scss/settings";
+@import "../../scss/mixins";
 
 .container{
   background-color: #f7f7f7;
@@ -8,17 +10,33 @@
 .info{
   display: flex;
   align-items: center;
+
+  @include media-max($sm-break){
+    flex-direction: column;
+    justify-content: center;
+  }
 }
+
 .description{
   margin-left: 50px;
   display: flex;
   flex-direction: column;
+
+  @include media-max($sm-break){
+    margin: 50px 0;
+    flex-direction: column;
+   align-items: center;
+  }
 }
 
-.title{
+.title {
   font-family: $main-title;
   font-size: 36px;
   margin-bottom: 15px;
+
+  @include media-max($sm-break) {
+    text-align: center;
+  }
 }
 
 .about{
@@ -40,7 +58,7 @@
 }
 
 .btnAction{
-  border: none;
+  @include btn-reset();
   padding: 14px 0;
   margin-right: 40px;
   background-color: transparent;
@@ -50,6 +68,7 @@
   display: flex;
   align-items: center;
 }
+
 .text{
   margin-left: 10px;
   font-family:$font-medium;
@@ -58,8 +77,8 @@
 }
 
 .btnTag{
-  border: none;
-  margin-right: 8px;
+  @include btn-reset();
+  margin: 0 10px 10px 0;
   background-color: #8f95a3 ;
   padding: 7px 16px;
   border-radius: 6px;
